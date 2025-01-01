@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <h1>E-ShopCart</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Product">
+                <button class="search-btn">🔍</button>
+            </div>
+        </header>
+        
+
+        <main>
+            <div class="delivery-option">
+                <h3>Preferred Delivery Option</h3>
+                <div class="delivery-box">
+                    <input type="radio" id="standard" name="delivery" checked>
+                    <label for="standard">
+                        <span>Standard</span>
+                        <span>Get by 13-16 Dec 2024</span>
+                        <span>Rs 40</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="cart">
+                <div class="cart-item">
+                    <img src="headphone.png" alt="Apple Airpod Max" class="item-img">
+                    <div class="item-details">
+                        <h4>Apple Airpod Max Headphone</h4>
+                        <p>Brand: Apple, Color: Silver</p>
+                        <p>Price: <span class="price">Rs 87,999</span></p>
+                        <p class="discount">-2.23%</p>
+                    </div>
+                    <div class="item-actions">
+                        <button class="quantity-btn">-</button>
+                        <input type="number" value="1" class="quantity-input">
+                        <button class="quantity-btn">+</button>
+                    </div>
+                </div>
+                <div class="not-available">
+                    <p>All Not Available Goods</p>
+                    <p>Samsung Charger 10000 mAh battery (Black)</p>
+                </div>
+            </div>
+        </main>
+
+   
+        <aside class="order-summary">
+            <h3>Order Summary</h3>
+            <p>Subtotal (1 item): <span>Rs 87,999</span></p>
+            <p>Shipping Fee: <span>Rs 40</span></p>
+            <p>Total: <span>Rs 88,039</span></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </aside>
+    </div>
+</body>
+</html>

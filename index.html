@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapCart</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="snapcart" height="80px" width="80px">
+            </div>
+            <div class="nav-right">
+                <input type="text" class="search-bar" placeholder="Search...">
+                <img src="png-clipart-shopping-cart-shopping-centre-icon-shopping-cart-text-retail.png" alt="Shop Icon" class="shop-icon">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="Product/product.html">Products</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="demo3.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="Signup.html"><button class="sign-in">Sign Up</button></a>
+                <a href="register.html"><button class="register">Register</button></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover, Click, Own.</h2>
+            <p>The best place to find amazing Electronic products.</p>
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </section>
+
+    <section class="products">
+        <aside class="filters">
+            <h3>Keywords</h3>
+            <ul>
+                <li><input type="checkbox" id="headphone"><label for="headphone">Headphone</label></li>
+                <li><input type="checkbox" id="smartwatch"><label for="smartwatch">Smartwatch</label></li>
+                <li><input type="checkbox" id="mobilephone"><label for="mobilephone">Mobilephone</label></li>
+            </ul>
+
+            <h3>Price</h3>
+            <input type="range" min="0" max="100" value="50">
+
+            <h3>Color</h3>
+            <ul>
+                <li><input type="checkbox" id="black"><label for="black">Black</label></li>
+                <li><input type="checkbox" id="blue"><label for="blue">Blue</label></li>
+                <li><input type="checkbox" id="grey"><label for="grey">Grey</label></li>
+            </ul>
+
+            <h3>No. of Items</h3>
+            <ul>
+                <li><input type="checkbox" id="one"><label for="one">1</label></li>
+                <li><input type="checkbox" id="two"><label for="two">2</label></li>
+            </ul>
+        </aside>
+
+        <div class="product-list">
+            <div class="sorting">
+                <button class="sort">New</button>
+                <button class="sort">Price ascending</button>
+                <button class="sort">Price descending</button>
+                <button class="sort">Rating</button>
+            </div>
+
+            <div class="product-grid">
+                <div class="product">
+                    <img src="airpot.png.png" alt="Product 1">
+                    <h4>Asta Wolf Air Pod</h4>
+                    <p>Rs 2,000</p>
+                </div>
+                <div class="product">
+                    <img src="iphone16.webp" alt="Product 2">
+                    <h4>iPhone 16 Pro Max</h4>
+                    <p>Rs 2,98,000</p>
+                </div>
+                <div class="product">
+                    <img src="laptop.png" alt="Product 3">
+                    <h4>HP Victus 15</h4>
+                    <p>Rs 1,15,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Tel No: 061-56364</li>
+                    <li>Phone No: +9779745451648</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li>Email <i class="fa-sharp-duotone fa-regular fa-envelope"></i> : SnapCart007@gmail.com</li>
+                    <li>Facebook  <i class="fa-brands fa-facebook"></i>  : @SnapCartfamily_fb </li>
+                    <li>Instagram <i class="fa-brands fa-instagram"></i>: @SnapCart_Insta</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Developers</h3>
+                <ul>
+                    <li>Sandesh Baral</li>
+                    <li>Sankalpa Paudel</li>
+                    <li>Tilak Tilija Pun (Manager)</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
